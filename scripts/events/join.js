@@ -56,9 +56,9 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-    return api.sendMessage("চলে এসেছি আমি পিচ্চি 🌺★𝕊𝕂 𝕊ℍ𝔸𝕂𝕀𝕃(𝕋𝕆𝕄)𝔹𝕆𝕋★🌺 এর বট তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("🌺🌺🌺চলে এসেছি আমি পিচ্চি 🌺★𝕊𝕂 𝕊ℍ𝔸𝕂𝕀𝕃(𝕋𝕆𝕄)𝔹𝕆𝕋★🌺 এর বট তোমাদের মাঝে🤭!আমাকে কেও welcom🥰জানাও🌺🌺🌺🌺", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
-🌺𝔹𝕆𝕋 ℂ𝕆ℕℕ𝔼ℂ𝕋𝔼𝔻 𝕊𝕌ℂℂ𝔼𝕊𝔽𝕌𝕃💋🌹 !!! 
+🌺🌺🌺𝔹𝕆𝕋 ℂ𝕆ℕℕ𝔼ℂ𝕋𝔼𝔻 𝕊𝕌ℂℂ𝔼𝕊𝔽𝕌𝕃💋🌺🌺🌹 !!! 
 
 APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>\n\nTO VIEW ANY COMMAND Use👉${global.config.PREFIX}help\nSee command👉 ${global.config.PREFIX}command
@@ -66,7 +66,7 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 🌺
 
-DEVELOPER :🌺★𝕊𝕂 𝕊ℍ𝔸𝕂𝕀𝕃(𝕋𝕆𝕄)★🌺
+DEVELOPER :🌺🌺🌺🌺★𝕊𝕂 𝕊ℍ𝔸𝕂𝕀𝕃(𝕋𝕆𝕄)★🌺🌺🌺
 
 🟣Facebook Account Link: 
 
